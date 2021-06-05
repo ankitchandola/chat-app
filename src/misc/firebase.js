@@ -5,6 +5,8 @@ import 'firebase/database';
 const config = {
   apiKey: 'AIzaSyCTRz3U7JVoHauNwsB_f9H6F5cr0SuO9Rk',
   authDomain: 'chat-app-1c6f3.firebaseapp.com',
+  databaseURL:
+    'https://chat-app-1c6f3-default-rtdb.asia-southeast1.firebasedatabase.app/',
   projectId: 'chat-app-1c6f3',
   storageBucket: 'chat-app-1c6f3.appspot.com',
   messagingSenderId: '102670169762',
