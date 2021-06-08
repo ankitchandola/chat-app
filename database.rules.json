@@ -1,6 +1,6 @@
 {
   "rules": {
-    "profiles": {
+    "profile": {
       "$user_id": {
         ".read": "$user_id === auth.uid",
         ".write": "$user_id === auth.uid"
@@ -31,13 +31,7 @@
         ".write": "$user_id === auth.uid"
       }
     },
-    "fcm_tokens": {
-      ".indexOn": ".value",
-      "$token_id": {
-        ".read": false,
-        ".write": "newData.val() === auth.uid"
-      }
-    },
+
     ".read": false,
     ".write": false
   }
