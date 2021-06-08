@@ -18,8 +18,10 @@ const config = {
   appId: '1:102670169762:web:79b743e6cf2c379c7589fb',
 };
 
-const app = firebase.initializeApp(config);
+export const fcmVapidKey =
+  'BEHao6FWkw7iimY4s3EO7hfs3_HxcpTUv0qhjQvmWmYAAhDwZD19Ea9jMZsI96yPdqN-gv9ZC7sC2D2qHDijzDs';
 
+const app = firebase.initializeApp(config);
 export const auth = app.auth();
 export const database = app.database();
 export const storage = app.storage();
